@@ -1,0 +1,86 @@
+:root {
+    --primary-text-color:#757575;
+    --title-text-color:#212121;
+    --accent-color:#2196F3;
+    --primary-white-color:#FFFFFF;
+}
+
+body{
+    background-color: #F5F5F5;
+    color:var(--primary-text-color);
+}
+
+.site-nav {
+    color:var(--title-text-color);
+}
+
+.contact-nav {
+    color:var(--primary-text-color);
+}
+.logo-header{
+    color:#000000;
+}
+
+.logo-footer{
+    color:var(--primary-white-color);
+}
+.logo-accent{
+    color:var(--accent-color);
+}
+
+.site-nav:hover,
+.site-nav:focus {
+color:var(--accent-color);
+}
+
+.site-nav.current {
+color:var(--accent-color);
+}
+
+.contact-nav:hover,
+.contact-nav:focus {
+color:var(--accent-color);
+}
+
+.site-nav-foot:hover,
+.site-nav-foot:focus {
+color:var(--accent-color);
+}
+
+.adr:hover,
+.adr:focus {
+color:var(--accent-color);
+}
+
+ul{
+    list-style: none;
+}
+
+.hero {
+    background-color: #2F303A;
+}
+
+.hero-title {
+    color:var(--primary-white-color);
+}
+
+.button {
+    background-color:var(--accent-color);
+    color:var(--primary-white-color);
+}
+
+.title {
+    color:var(--title-text-color);
+}
+
+.site-nav-foot {
+    color:rgba(255, 255, 255, 0.6);
+}
+
+.adr {
+    color:var(--primary-white-color);
+}
+
+footer {
+    background-color: #2F303A;
+}
