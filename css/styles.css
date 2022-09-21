@@ -101,6 +101,7 @@ ul{
     font-weight: 700;
     font-size: 16px;
     line-height: 1.8;
+    cursor: pointer;
   }
    
 
@@ -181,6 +182,7 @@ footer {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
+    cursor: pointer;
   }
 
 .button-direction:hover,
