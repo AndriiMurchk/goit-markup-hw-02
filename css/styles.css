@@ -6,8 +6,7 @@
 }
 
 body{
-    background-color: #F5F5F5;
-    color:var(--primary-text-color);
+       color:var(--primary-text-color);
     font-family: roboto, sans-serif;
           
 }
